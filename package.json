@@ -1,0 +1,22 @@
+{
+  "name": "project10-library-manager",
+  "version": "1.0.0",
+  "description": "This is a student project as a part of Treehouse Techdegree Fullstack JavaScript program, a library manager for managing a collection of books",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jenni Sten",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "^2.0.3",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0",
+    "sqlite3": "^4.0.6"
+  }
+}

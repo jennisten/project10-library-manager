@@ -1,0 +1,6 @@
+if(errors)
+
+	h2(class="error").errors Validation error
+	ul(class="error").errors
+		each error in errors
+			li= error.message
