@@ -98,6 +98,55 @@ input[type=text] {
 
 /*** MY CSS CHANGES ***/
 
-.confirm {
-	float: left;
+body {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	color: #4C4C4C;
+}
+
+th {
+	border-bottom: 2px solid #5AC4AC;
+	padding: 8px 20px 8px 10px;
+ }
+
+ td {
+	 padding: 8px 20px 8px 10px;
+	 color: #363636;
+}
+
+a {
+	color: #363636;
+}
+
+input {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	border-color: #DBDBDB;
+	border-style: solid;
+}
+
+a.button, input[type=submit] {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background: #5AC4AC;
+	font-weight: bold;
+}
+
+.error {
+	color: orange;
+}
+
+a.cancel {
+	background: #DBDBDB;
+	color: #4D4D4D;
+	text-decoration: none;
+}
+
+a.cancel:hover	{
+    color: #5AC4AC;
+	background: #DBDBDB;
+}
+
+tr:nth-child(2n) {
+	background: #EDEDED;
 }
