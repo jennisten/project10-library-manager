@@ -18,14 +18,7 @@ module.exports = (sequelize, DataTypes) => {
 		}
 	},
 	genre: DataTypes.STRING,
-	year: {
-		type:  DataTypes.INTEGER,
-		validate: {
-			isNumeric: {
-				msg: "Year should be a number"
-			}
-		}
-	},
+	year: DataTypes.INTEGER,
 	createdAt: DataTypes.DATE,
 	updatedAt: DataTypes.DATE
   }, {});

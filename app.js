@@ -38,11 +38,11 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   if (err.status === 404) {
-	  res.render('page-not-found');
+	  res.render('page-not-found', {title: "Page Not Found"});
 	  console.log(err.status + ' Page not found');
   } else {
   	res.status(err.status || 500);
-  	res.render('error');
+  	res.render('error', {title: "Error"});
 	console.log(err.status + ' Error');
 	}
 });
